@@ -1,0 +1,19 @@
+dyn_o_mite:
+  datacenter: ${DC}
+  rack: ${RACK}
+  dyn_listen: 0.0.0.0:8101
+  dyn_seeds:
+    - redis-settings-bidder-settings-us-east1-c:8101:us-east-1c:us:437425602
+    - redis-settings-bidder-settings-us-east1-d:8101:us-east-1d:us:437425602
+    - redis-settings-bidder-settings-eu-west1-d:8101:eu-west1-d:eu:437425602
+    - redis-settings-bidder-settings-eu-west1-b:8101:eu-west1-d:eu:437425602
+    - redis-settings-bidder-settings-asia-east1-c:8101:asia-east1-c:asia:437425602
+    - redis-settings-bidder-settings-asia-east1-b:8101:asia-east1-b:asia:437425602
+  listen: 0.0.0.0:8102
+  servers:
+  - 127.0.0.1:8889:1
+  tokens: 437425602
+  data_store: 0
+  read_consistency : DC_SAFE_QUORUM
+  write_consistency : DC_SAFE_QUORUM
+  stats_listen: 0.0.0.0:22222
