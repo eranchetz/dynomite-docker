@@ -5,8 +5,8 @@ dyn_o_mite:
   dyn_seeds:
     - redis-bidder-settings-us-east1-c:8101:us-east-1c:us:437425602
     - redis-bidder-settings-us-east1-d:8101:us-east-1d:us:437425602
-    - redis-bidder-settings-eu-west1-d:8101:eu-west1-d:eu:437425602
-    - redis-bidder-settings-eu-west1-b:8101:eu-west1-d:eu:437425602
+    - redis-bidder-settings-europe-west1-d:8101:europe-west1-d:europe:437425602
+    - redis-bidder-settings-europe-west1-b:8101:europe-west1-d:europe:437425602
     - redis-bidder-settings-asia-east1-c:8101:asia-east1-c:asia:437425602
     - redis-bidder-settings-asia-east1-b:8101:asia-east1-b:asia:437425602
   listen: 0.0.0.0:8102
