@@ -14,6 +14,6 @@ dyn_o_mite:
   - 127.0.0.1:8889:1
   tokens: 437425602
   data_store: 0
-  read_consistency : DC_SAFE_QUORUM
-  write_consistency : DC_SAFE_QUORUM
+  read_consistency : DC_QUORUM
+  write_consistency : DC_QUORUM
   stats_listen: 0.0.0.0:22222
